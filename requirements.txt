@@ -1,0 +1,8 @@
+# create environment as follows:
+# `conda create -n dicom-annotator --file requirements.txt`
+# activate environment as follows (prepend with `source` on darwin):
+# `activate dicom-annotator`
+python
+pydicom
+wxpython
+matplotlib

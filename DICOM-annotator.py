@@ -110,6 +110,7 @@ class DICOMViewer(object):
 		else:
 			path = None
 		dialog.Destroy()
+		app.Destroy()
 		return path
 		
 	def keyPress(self, event):
